@@ -1,54 +1,129 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Michelly Monteo</title>
-    <link rel="stylesheet" href="./styles.css/reset.css">
-    <link rel="stylesheet" href="./styles/styles.css" />
+    <title>Clínica de Beleza</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
-
 <body>
-    <header class="header">
-        <h1>
-            <p>Michelly Monteiro</p>
-        </h1>
-
+    <header>
+        <nav>
+            <ul class="menu">
+                <li><a href="#inicio">Início</a></li>
+                <li><a href="#procedimentos">Procedimentos</a></li>
+                <li><a href="#quem-somos">Quem Somos</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
     </header>
 
     <main>
-
-        <section class="about">
-            <h2 class="about__titulo">Quem sou eu</h2>
-            <p class="about__paragrafo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab enim est voluptates blanditiis dignissimos
-                velit quis voluptas id modi odio tenetur vero tempore quas asperiores aut, sunt commodi nemo? Neque?
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore ut totam esse consectetur. Quo, aut
-                beatae vitae hic, iure voluptate ut debitis at tempora maxime quis omnis quia, ullam sit!</p>
+        <section id="inicio" class="inicio-section">
+            <div class="intro-text">
+                <img src="../static/logoMM-removebg-preview.png" alt="LogoMM" class="logo">
+                <h1>Realce a sua Beleza Natural</h1>
+                <p>Desperte a sua melhor versão com procedimentos exclusivos e personalizados.</p>
+                <a href="#procedimentos" class="btn">Agende Agora</a>
+            </div>
         </section>
 
+        <!-- Seção Procedimentos -->
+        <section id="procedimentos" class="procedimentos-section">
+            <h2>Procedimentos Exclusivos</h2>
+            <div class="procedimentos-grid">
+                <div class="procedimentos-container">
+                    <div class="image-container">
+                        <img src="../static/thallia.jpeg" alt="Harmonização Corporal">
+                    </div>
+                    <div class="procedimentos-text">
+                        <h3>Harmonização Corporal</h3>
+                        <p>A harmonização corporal visa melhorar a estética corporal através de técnicas inovadoras que tonificam e esculpem o corpo.</p>
+                    </div>
+                </div>
 
-        <section class="procedimentos">
-            <h2 class="procedimentos__titulo">Serviços realizados</h2>
-            <li class="procedimentos__lista">
-                <i class="procedimentos__lista__item"></i>>Procedimento x</i>
-                <i class="procedimentos__lista__item"></i>>Procedimento x</i>
+                <div class="procedimentos-container">
+                    <div class="image-container">
+                        <img src="../static/thlogo.jpeg" alt="Harmonização Facial">
+                    </div>
+                    <div class="procedimentos-text">
+                        <h3>Harmonização Facial</h3>
+                        <p>A harmonização facial é um conjunto de procedimentos que visa equilibrar os traços faciais, melhorando a simetria e a aparência.</p>
+                    </div>
+                </div>
 
-            </li>
+                <div class="procedimentos-container">
+                    <div class="image-container">
+                        <img src="../static/thlogo.jpeg" alt="Harmonização de Glúteos">
+                    </div>
+                    <div class="procedimentos-text">
+                        <h3>Harmonização de Glúteos</h3>
+                        <p>Procedimento destinado a tonificar e modelar os glúteos, oferecendo volume e definição.</p>
+                    </div>
+                </div>
+
+                <div class="procedimentos-container">
+                    <div class="image-container">
+                        <img src="../static/thlogo.jpeg" alt="Hidro Lipo Não Aspirativa">
+                    </div>
+                    <div class="procedimentos-text">
+                        <h3>Hidro Lipo Não Aspirativa</h3>
+                        <p>A hidro lipo não aspirativa ajuda a eliminar gordura localizada com técnicas menos invasivas, sem a necessidade de aspiração.</p>
+                    </div>
+                </div>
+
+                <div class="procedimentos-container">
+                    <div class="image-container">
+                        <img src="../static/thlogo.jpeg" alt="Criolipólise">
+                    </div>
+                    <div class="procedimentos-text">
+                        <h3>Criolipólise</h3>
+                        <p>A criolipólise é um tratamento não invasivo que utiliza o resfriamento para eliminar as células de gordura.</p>
+                    </div>
+                </div>
+
+                <div class="procedimentos-container">
+                    <div class="image-container">
+                        <img src="../static/thlogo.jpeg" alt="Outro Procedimento">
+                    </div>
+                    <div class="procedimentos-text">
+                        <h3>Outro Procedimento</h3>
+                        <p>Oferecemos uma gama de outros procedimentos estéticos para melhorar sua saúde e aparência.</p>
+                    </div>
+                </div>
+            </div>
         </section>
 
+        <!-- Seção "Quem Somos" -->
+        <section id="quem-somos" class="about-section">
+            <div class="quem-somos-container">
+                <img src="../static/thlogo.jpeg" alt="Equipe Clínica">
+                <div class="quem-somos-text">
+                    <h2>Quem Somos</h2>
+                    <p>Somos uma clínica especializada em oferecer os melhores cuidados de beleza para você se sentir bem consigo mesma(o). Nossa equipe altamente qualificada utiliza os melhores produtos e técnicas inovadoras para garantir a sua satisfação.</p>
+                </div>
+            </div>
+        </section>
 
+        <!-- Seção Mapa -->
+        <section id="mapa" class="map-section">
+            <div id="map"></div>
+        </section>
 
+        <!-- Seção de Contato -->
+        <section id="contato" class="contact-section">
+            <h2>Contato</h2>
+            <p>Entre em contato conosco para agendar sua consulta ou tirar suas dúvidas:</p>
+            <ul>
+                <li>Email: contato@clinica.com.br</li>
+                <li>Telefone: (11) 1234-5678</li>
+                <li>Endereço: Rua Exemplo, 123 - São Paulo</li>
+            </ul>
+        </section>
 
-
+        <!-- Script do Google Maps -->
+        <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCDub_OzykqytbVobMhL_SfEoEjZDQzJzQ&callback=initMap"></script>
+        <script src="main.js"></script>
     </main>
-
-
-    <footer>
-
-    </footer>
-
-
 </body>
-
 </html>
