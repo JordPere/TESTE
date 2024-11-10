@@ -1,9 +1,11 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;700&display=swap" rel="stylesheet">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Clínica de Beleza</title>
+    <title>Bawt Estetica</title>
+    <link rel="shortcut icon" href="../static/logoMM-removebg-preview.png" type="image/x-icon">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -13,117 +15,226 @@
                 <li><a href="#inicio">Início</a></li>
                 <li><a href="#procedimentos">Procedimentos</a></li>
                 <li><a href="#quem-somos">Quem Somos</a></li>
-                <li><a href="#contato">Contato</a></li>
+                <li>
+                    <a href="https://wa.me/+5511940025146" target="_blank" class="social-link">
+                        <i class="fab fa-whatsapp" style="font-size: 20px; margin-right: 10px;"></i>WhatsApp: (11) 94749-5989
+                    </a>
+                </li>
             </ul>
         </nav>
     </header>
 
-    <main>
-        <section id="inicio" class="inicio-section">
-            <div class="intro-text">
-                <img src="../static/logoMM-removebg-preview.png" alt="LogoMM" class="logo">
-                <h1>Realce a sua Beleza Natural</h1>
-                <p>Desperte a sua melhor versão com procedimentos exclusivos e personalizados.</p>
-                <a href="#procedimentos" class="btn">Agende Agora</a>
-            </div>
-        </section>
+    <section id="inicio" class="inicio-section">
+        <div class="intro-text">
+            <img src="../static/MMlosango.png" alt="LogoMM" class="logo">
+            <h1>Realce a sua Beleza Natural</h1>
+            <p>Desperte a sua melhor versão com procedimentos exclusivos e personalizados.</p>
 
-        <!-- Seção Procedimentos -->
-        <section id="procedimentos" class="procedimentos-section">
-            <h2>Procedimentos Exclusivos</h2>
-            <div class="procedimentos-grid">
-                <div class="procedimentos-container">
-                    <div class="image-container">
-                        <img src="../static/thallia.jpeg" alt="Harmonização Corporal">
-                    </div>
-                    <div class="procedimentos-text">
-                        <h3>Harmonização Corporal</h3>
-                        <p>A harmonização corporal visa melhorar a estética corporal através de técnicas inovadoras que tonificam e esculpem o corpo.</p>
-                    </div>
+    <!-- Botão "Agende Agora"-->
+    <div style="text-align: center; margin-top: 5px;">
+        <a href="https://wa.me/+5511940025146" target="_blank" class="agende-button">Agende Agora</a>
+    </div>
+        </div>
+</section>
+
+    <!-- Seção Procedimentos -->
+    <section id="procedimentos" class="procedimentos-section">
+        <h2>Procedimentos Exclusivos</h2>
+        <div class="procedimentos-grid">
+            <div class="procedimentos-container">
+                <div class="image-container">
+                    <img src="../static/corpo.jpg" alt="Harmonização Corporal", id="carousel-corporal">
                 </div>
-
-                <div class="procedimentos-container">
-                    <div class="image-container">
-                        <img src="../static/thlogo.jpeg" alt="Harmonização Facial">
-                    </div>
-                    <div class="procedimentos-text">
-                        <h3>Harmonização Facial</h3>
-                        <p>A harmonização facial é um conjunto de procedimentos que visa equilibrar os traços faciais, melhorando a simetria e a aparência.</p>
-                    </div>
-                </div>
-
-                <div class="procedimentos-container">
-                    <div class="image-container">
-                        <img src="../static/thlogo.jpeg" alt="Harmonização de Glúteos">
-                    </div>
-                    <div class="procedimentos-text">
-                        <h3>Harmonização de Glúteos</h3>
-                        <p>Procedimento destinado a tonificar e modelar os glúteos, oferecendo volume e definição.</p>
-                    </div>
-                </div>
-
-                <div class="procedimentos-container">
-                    <div class="image-container">
-                        <img src="../static/thlogo.jpeg" alt="Hidro Lipo Não Aspirativa">
-                    </div>
-                    <div class="procedimentos-text">
-                        <h3>Hidro Lipo Não Aspirativa</h3>
-                        <p>A hidro lipo não aspirativa ajuda a eliminar gordura localizada com técnicas menos invasivas, sem a necessidade de aspiração.</p>
-                    </div>
-                </div>
-
-                <div class="procedimentos-container">
-                    <div class="image-container">
-                        <img src="../static/thlogo.jpeg" alt="Criolipólise">
-                    </div>
-                    <div class="procedimentos-text">
-                        <h3>Criolipólise</h3>
-                        <p>A criolipólise é um tratamento não invasivo que utiliza o resfriamento para eliminar as células de gordura.</p>
-                    </div>
-                </div>
-
-                <div class="procedimentos-container">
-                    <div class="image-container">
-                        <img src="../static/thlogo.jpeg" alt="Outro Procedimento">
-                    </div>
-                    <div class="procedimentos-text">
-                        <h3>Outro Procedimento</h3>
-                        <p>Oferecemos uma gama de outros procedimentos estéticos para melhorar sua saúde e aparência.</p>
-                    </div>
+                <div class="procedimentos-text">
+                    <h3>Harmonização Corporal</h3>
+                    <p>A harmonização corporal visa melhorar a estética corporal através de técnicas inovadoras que tonificam e esculpem o corpo.</p>
                 </div>
             </div>
-        </section>
 
-        <!-- Seção "Quem Somos" -->
-        <section id="quem-somos" class="about-section">
-            <div class="quem-somos-container">
-                <img src="../static/thlogo.jpeg" alt="Equipe Clínica">
-                <div class="quem-somos-text">
-                    <h2>Quem Somos</h2>
-                    <p>Somos uma clínica especializada em oferecer os melhores cuidados de beleza para você se sentir bem consigo mesma(o). Nossa equipe altamente qualificada utiliza os melhores produtos e técnicas inovadoras para garantir a sua satisfação.</p>
+            <div class="procedimentos-container reverse">
+                <div class="image-container">
+                    <img src="../static/thallia.jpeg" alt="Harmonização Facial">
+                </div>
+                <div class="procedimentos-text">
+                    <h3>Harmonização Facial</h3>
+                    <p>A harmonização facial é um conjunto de procedimentos que visa equilibrar os traços faciais, melhorando a simetria e a aparência.</p>
                 </div>
             </div>
-        </section>
 
-        <!-- Seção Mapa -->
-        <section id="mapa" class="map-section">
-            <div id="map"></div>
-        </section>
+            <div class="procedimentos-container">
+                <div class="image-container">
+                    <img src="../static/gluteo.jpg" alt="Harmonização de Glúteos">
+                </div>
+                <div class="procedimentos-text">
+                    <h3>Harmonização de Glúteos</h3>
+                    <p>Procedimento destinado a tonificar e modelar os glúteos, oferecendo volume e definição.</p>
+                </div>
+            </div>
 
-        <!-- Seção de Contato -->
-        <section id="contato" class="contact-section">
-            <h2>Contato</h2>
-            <p>Entre em contato conosco para agendar sua consulta ou tirar suas dúvidas:</p>
-            <ul>
-                <li>Email: contato@clinica.com.br</li>
-                <li>Telefone: (11) 1234-5678</li>
-                <li>Endereço: Rua Exemplo, 123 - São Paulo</li>
-            </ul>
-        </section>
+            <div class="procedimentos-container reverse">
+                <div class="image-container">
+                    <img src="../static/hidro.jpg" alt="Hidro Lipo Não Aspirativa">
+                </div>
+                <div class="procedimentos-text">
+                    <h3>Hidro Lipo Não Aspirativa</h3>
+                    <p>A hidro lipo não aspirativa ajuda a eliminar gordura localizada com técnicas menos invasivas, sem a necessidade de aspiração.</p>
+                </div>
+            </div>
 
-        <!-- Script do Google Maps -->
-        <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCDub_OzykqytbVobMhL_SfEoEjZDQzJzQ&callback=initMap"></script>
-        <script src="main.js"></script>
-    </main>
+            <div class="procedimentos-container">
+                <div class="image-container">
+                    <img src="../static/Crio01.jpeg" alt="Criolipólise">
+                </div>
+                <div class="procedimentos-text">
+                    <h3>Criolipólise</h3>
+                    <p>A criolipólise é um tratamento não invasivo que utiliza o resfriamento para eliminar as células de gordura.</p>
+                </div>
+            </div>
+
+            <div class="procedimentos-container reverse">
+                <div class="image-container">
+                    <img src="../static/outros.jpg" alt="Outros Procedimentos">
+                </div>
+                <div class="procedimentos-text">
+                    <h3>Outros Procedimentos</h3>
+                    <p>Oferecemos uma gama de outros procedimentos estéticos para melhorar sua saúde e aparência.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!-- Seção "Quem Sou" -->
+<section id="quem-somos" class="about-section">
+    <div class="quem-somos-container">
+        <div class="imagem-pessoal">
+            <img src="../static/profilePicture.jpeg" alt="Imagem da pessoa">
+        </div>
+        <div class="quem-somos-text">
+            <h2>Michelly Monteiro</h2>
+            <p>Sou especialista em estética e beleza, dedicada a oferecer os melhores cuidados para que você possa realçar sua beleza natural. Com técnicas inovadoras e produtos de alta qualidade, estou aqui para ajudar você a alcançar a melhor versão de si.</p>
+            
+            <!-- "Agende sua Avaliação" e Link do WhatsApp -->
+            <p><strong>CLique no link abaixo para agendar sua avaliação:</strong></p>
+            <p>
+                <a href="https://wa.me/+5511940025146" target="_blank" class="social-link">
+                    <i class="fab fa-whatsapp" style="font-size: 20px; margin-right: 10px;"></i>WhatsApp: (11) 94749-5989
+                </a>
+            </p>
+
+            <!-- "Visite minhas redes sociais" e Links do Instagram e Facebook -->
+            <p><strong>Clique no link abaixo e visite minhas redes sociais:</strong></p>
+            <p>
+                <a href="https://instagram.com/bawtestetica" target="_blank" class="social-link">
+                    <i class="fab fa-instagram" style="font-size: 20px; margin-right: 10px;"></i> @bawtestetica
+                </a>
+            </p>
+            <p>
+                <a href="https://facebook.com/bawtestetica" target="_blank" class="social-link">
+                    <i class="fab fa-facebook" style="font-size: 20px; margin-right: 10px;"></i> @bawtestetica
+                </a>
+            </p>
+            
+            <!-- "Nosso endereço" e Link do Google Maps -->
+            <p><strong>Nosso endereço:</strong></p>
+            <p>
+                <a href="https://www.google.com/maps/place/Av.+Morais+Costa,+58+-+Vila+Industrial,+S%C3%A3o+Paulo+-+SP,+03253-000/@-23.6034663,-46.532358,17z/data=!3m1!4b1!4m6!3m5!1s0x94ce5d6943cbc251:0x7cd839f1e687dbaa!8m2!3d-23.6034663!4d-46.5297831!16s%2Fg%2F11cnd8xggw?authuser=0&entry=ttu&g_ep=EgoyMDI0MTAyOS4wIKXMDSoASAFQAw%3D%3D" target="_blank" class="social-link">
+                    <i class="fas fa-map-marker-alt" style="font-size: 20px; margin-right: 10px;"></i>Nosso Endereço
+                </a>
+            </p>
+        </div>
+    </div>
+</section>
+
+<style>
+    .social-link {
+        display: inline-flex;
+        align-items: center;
+        font-size: 18px;
+        color: #d6e9ff;
+        text-decoration: none;
+        transition: all 0.3s ease-in-out;
+    }
+    .social-link i {
+    animation: piscar 1.5s infinite; /* A animação vai durar 1 segundo e vai se repetir infinitamente */
+}
+@keyframes piscar {
+    0% {
+        opacity: 1; /* Visível */
+    }
+    80% {
+        opacity: 0; /* Invisível */
+    }
+    100% {
+        opacity: 1; /* Visível novamente */
+    }
+}
+
+    .social-link:hover {
+        color: #6c2a6b; /* Cor ao passar o mouse */
+        transform: translateX(5px); /* Animação de mover o link para a direita */
+    }
+
+    .visit-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #6c2a6b;
+    color: #d6e9ff;
+    text-decoration: none;
+    border-radius: 25px; 
+    margin-top: 10px;
+    transition: background-color 0.3s ease;
+}
+
+/* Efeito de hover */
+.visit-button:hover {
+    background-color: #5a215a; /* Cor ao passar o mouse */
+    font-weight: bold; /* Torna o texto em negrito */
+}
+    .visit-button:hover {
+        background-color: #5a215a;
+    }
+</style>
+
+<!-- Rodapé -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+<footer style="background: linear-gradient(135deg, #d58bbd 0%, #370037 100%); color: #ccc; padding: 20px 0; font-size: 14px;">
+            <div style="display: flex; justify-content: space-around; max-width: 1200px; margin: auto; flex-wrap: wrap;">
+            <!-- Logo e Nome -->
+            <div style="flex: 1; text-align: center; margin-bottom: 20px;">
+                <img src="../static/logoMM-removebg-preview.png" alt="Logo" style="max-width: 250px;">
+            </div>
+    
+            <!-- Serviços -->
+            <div style="flex: 1; text-align: center; margin-bottom: 20px;">
+                <h3 style="color: #d6e9ff; margin-bottom: 10px;">Serviços</h3>
+                <ul style="list-style: none; padding: 0; margin: 0; color: #ccc;">
+                    <li>Bioestimulador de Colágeno</li>
+                    <li>Preenchimento Labial</li>
+                    <li>Depilação a Laser</li>
+                    <li>Harmonização Facial</li>
+                    <li>Tratamentos para Pele</li>
+                    <li>Outros Procedimentos</li>
+                </ul>
+            </div>
+    
+            <!-- Links Úteis -->
+            <div style="flex: 1; text-align: center; margin-bottom: 20px;">
+                <h3 style="color: #d6e9ff; margin-bottom: 10px;">Links Úteis</h3>
+                <ul style="list-style: none; padding: 0; margin: 0; color: #ccc;">
+                    <li>Início</li>
+                    <li>Procedimentos</li>
+                    <li>Quem Somos</li>
+                    <li>Depoimentos</li>
+                    <li>Contato</li>
+                </ul>
+            </div>
+        </div>
+    
+        <!-- Copyright -->
+        <div style="text-align: center; padding-top: 10px; border-top: 1px solid #444; margin-top: 20px; color: #ccc;">
+            Copyright© 2024 - All Rights Reserved.
+        </div>
+    </footer>
+
 </body>
 </html>
